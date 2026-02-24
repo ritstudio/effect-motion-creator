@@ -247,7 +247,7 @@ export default function App() {
 
       {/* ── Floating info button ── */}
       <button className="info-fab" onClick={() => setShowInfo(true)} title="About">
-        i
+        <img src="/favicon-rit-black.svg" alt="About" />
       </button>
 
       {/* ── Info modal ── */}

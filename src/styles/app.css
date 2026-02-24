@@ -975,6 +975,14 @@ html, body {
   background: #333;
 }
 
+/* Image inside floating FAB */
+.info-fab img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  display: block;
+}
+
 /* ── Info overlay ── */
 .info-overlay {
   position: fixed;
